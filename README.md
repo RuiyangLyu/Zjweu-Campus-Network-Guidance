@@ -1,6 +1,8 @@
 # 浙江水利水电学院南浔校区校园网路由器设置不靠谱指北
 
-**本文最新编辑时间：2022/9/19**
+**本文最新编辑时间：2022/9/21 处理了写文章时未曾发现的截图和选择错误**
+
+感谢对文章内容的斧正
 
 
 
@@ -36,19 +38,19 @@
 
 2. ### 首先需要获取curl指令
 
-   请打开F12-完成步骤①②之后点击登录按钮
+   请打开F12-完成前两个箭头所指向之处后
 
-   在登录完后找到③
+   点击登录按钮
 
-   ![](https://raw.githubusercontent.com/RuiyangLyu/PicInventory/master/image-20220919094100374.png)
+   在登录完后找到 login?callback 开头的这个文件
+
+   ![](https://raw.githubusercontent.com/RuiyangLyu/PicInventory/master/QQ20220921-001336@2x.png)
+
+   选择复制-以curl格式复制，若你使用的是windows，请选择以curl（bash格式）复制
 
    
 
-   选择复制-以curl（bash）格式复制
-
-   
-
-   ![](https://raw.githubusercontent.com/RuiyangLyu/PicInventory/master/20220919100357.png)
+   ![](https://raw.githubusercontent.com/RuiyangLyu/PicInventory/master/WX20220921-001448@2x.png)
 
    你将会得到一个类似于这个的curl链接
 
